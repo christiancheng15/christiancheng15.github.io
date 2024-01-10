@@ -180,6 +180,7 @@ nav a:hover {
     font-size: 3rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
 }
 
 #projects p {
@@ -189,23 +190,20 @@ nav a:hover {
 #projects #project-container{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 3rem;
-    row-gap: 2rem;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
 }
 
 #projects #project-container #project {
-    flex: 0 1 calc(33.33% - 2rem);
-    box-sizing: border-box;
+    width: calc(33.33% - 1rem);
     background: rgba(5, 99, 193, 0.15);
-    height: 20rem;
-    border-radius: 1.5rem;
-    height: 350px;
+    border-radius: 25px;
+    height: 24.3rem;
     display: flex;
     align-items: flex-end;
 }
 
 #projects #project-container #project:nth-child(3n) {
-    /* Remove margin for every 3rd div */
     margin-right: 0;
 }
 
@@ -225,6 +223,18 @@ nav a:hover {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     line-height: 1;
+}   
+
+#projects #project-container #project #view-project {
+    margin-top: 2rem;
+    margin-bottom: 1.75rem;
+}
+
+#view-project a {
+    background: #0563C1;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 25px;
 }
 
 /* ----------------------------- */
