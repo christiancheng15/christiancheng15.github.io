@@ -82,6 +82,7 @@ nav a:hover {
 }
 
 #donut-container {
+    display: block;
     width: 40%;
 }
 
