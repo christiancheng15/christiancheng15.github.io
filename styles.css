@@ -79,7 +79,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline 1px solid black;
-    
+    text-underline-offset: 5px;
 }
 
 #donut-container {
@@ -131,12 +131,12 @@ nav a:hover {
     justify-content: center;
     column-gap: 3rem;
     align-items: start;
+    margin-bottom: 2rem;
 }
 
 #experience #date {
     text-transform: uppercase;
     white-space: nowrap;
-    font-weight: 500;
 }
 
 #experience #eventTitle {
@@ -153,7 +153,7 @@ nav a:hover {
 #experience ul {
     list-style: none;
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #experience li {
@@ -162,7 +162,8 @@ nav a:hover {
     padding: 0.75rem 1rem;
     border-radius: 25px;
     color:#0563C1;
-    display: inline;
+    display: inline-flex;
+    margin: 0.25rem 0;
 }
 
 footer {
@@ -181,6 +182,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline 1px solid black;
+    text-underline-offset: 5px;
 }
 
 #container {
