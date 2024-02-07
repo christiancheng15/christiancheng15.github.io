@@ -36,3 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 50);
   });
   
+  function myFunction() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+    var span = document.querySelector("span[onclick='myFunction()']");
+    var spanText = element.classList.contains("light-mode") ? "🌙" : "☀️";
+    span.textContent = spanText;
+  }
